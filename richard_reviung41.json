@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "notes": "",
+  "notes": "QMK reviung41 keymaps usando home rows mod",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "reviung/reviung41",
   "keymap": "richard_reviung41",
@@ -18,7 +18,7 @@
       "KC_I",
       "KC_O",
       "KC_P",
-      "KC_BSPC",
+      "KC_DEL",
       "KC_TAB",
       "LGUI_T(KC_A)",
       "LALT_T(KC_S)",
@@ -42,15 +42,15 @@
       "KC_COMM",
       "KC_DOT",
       "KC_SLSH",
-      "RSFT_T(KC_ENT)",
+      "KC_RSFT",
       "LT(3,KC_ESC)",
       "LT(1,KC_TAB)",
       "KC_SPC",
       "LT(2,KC_ENT)",
-      "RGUI_T(KC_BSPC)"
+      "LT(4,KC_BSPC)"
     ],
     [
-      "KC_TRNS",
+      "KC_GRV",
       "KC_P1",
       "KC_P2",
       "KC_P3",
@@ -74,7 +74,7 @@
       "KC_UNDS",
       "KC_PAST",
       "KC_TRNS",
-      "KC_TRNS",
+      "KC_BSLS",
       "KC_EXLM",
       "KC_HASH",
       "KC_LCBR",
@@ -89,7 +89,7 @@
       "KC_TRNS",
       "KC_NO",
       "KC_TRNS",
-      "LT(4,KC_ENT)",
+      "KC_TRNS",
       "KC_TRNS"
     ],
     [
@@ -204,10 +204,10 @@
       "KC_F23",
       "KC_F24",
       "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
-      "KC_NO",
+      "KC_LGUI",
+      "KC_LALT",
+      "KC_LCTL",
+      "KC_LSFT",
       "KC_NO",
       "KC_HOME",
       "KC_END",
@@ -216,11 +216,11 @@
       "KC_INS",
       "KC_NO",
       "KC_TRNS",
-      "KC_NO",
       "KC_TRNS",
-      "KC_NO",
-      "KC_TRNS"
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_NO"
     ]
   ],
-  "author": ""
+  "author": "Richard Palacios"
 }
